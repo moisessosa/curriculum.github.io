@@ -1,1 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Sacramento&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    color: #66BFBF;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+
+}
+h2{
+    font-size: 2.2em;
+}
+p{
+    color: #101110;
+    font-family: 'Merriweather', serif;
+
+}
+hr{
+    border: 0;
+    border-bottom:8px dotted #ccc ;
+    width: 20%;
+    margin: 5% auto 5% auto;
+}
+.subrayado{text-decoration: underline;}
+.circle{
+    border-radius: 50%;
+}
+.header{
+    padding-top: 5%;
+    background-color: #e4f5f5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    margin-bottom: 5%;
+    justify-items: center;
+}
+/*grid del header*/
+#derecha{
+    grid-column: 4;
+}
+#eu{
+    grid-column: 3;
+}
+#um{
+    grid-column: 3;
+}
+#ezquerda{grid-column: 2;}
+/*fin del */
+
+.hello{
+    max-width: 40%;
+    margin: 0 auto 0 auto;
+}
