@@ -34,9 +34,33 @@ hr{
     width: 20%;
     margin: 5% auto 5% auto;
 }
+button{
+    margin: 3.5%;
+    width: 160px;
+    height: 40px;
+    background-color: #66BFBF;
+    color: azure;
+    font-size: 1.2em;
+    font-family: 'Open Sans',sans-serif;
+    padding: auto;
+}
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: #11999E;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
 .subrayado{text-decoration: underline;}
 .circle{
     border-radius: 50%;
+}
+.min{
+    max-width: 15%;
+    border: 1px solid #ccc;
+    margin: 0 5px 0 5px;
 }
 .header{
     padding-top: 5%;
@@ -58,8 +82,35 @@ hr{
 }
 #ezquerda{grid-column: 2;}
 /*fin del */
-
-.hello{
+.limite-40{
     max-width: 40%;
     margin: 0 auto 0 auto;
+}
+
+.skill{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.float{
+    float: left;
+}
+.ezquerda{
+    text-align: left;
+}
+
+/*estilo footer com flex*/
+footer{
+    background-color: #66BFBF;
+    height: 70px;
+    padding-top: 10px;
+    
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 0 auto 0 auto;
+}
+footer p{
+    color: #EAF6f6;
 }
