@@ -89,7 +89,7 @@ a:hover{
     max-width: 40%;
     margin: 0 auto 0 auto;
 }
-
+.limite-50{max-width: 50%;}
 .skill{
     margin-left: 15%;
     margin-right: 15%;
