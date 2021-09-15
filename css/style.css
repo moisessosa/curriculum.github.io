@@ -38,11 +38,13 @@ button{
     margin: 3.5%;
     width: 160px;
     height: 40px;
-    background-color: #66BFBF;
+    background-color: #0a9faa;
     color: azure;
     font-size: 1.2em;
     font-family: 'Open Sans',sans-serif;
     padding: auto;
+    border-radius: 5px;
+    border: 1px outset #029090 ;
 }
 li{list-style: none;}
 a{
