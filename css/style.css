@@ -56,7 +56,10 @@ a{
 a:hover{
     text-decoration: underline;
 }
-.subrayado{text-decoration: underline;}
+.subrayado{
+    text-decoration: underline;
+    
+}
 .circle{
     border-radius: 50%;
 }
