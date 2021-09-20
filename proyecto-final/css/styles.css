@@ -238,7 +238,7 @@ li{text-decoration: none;
        top: 2200px;
    }
  }
- @media  and (min-width: 910px) and (max-width: 1156px)  {
+ @media  and (min-width: 910px) and (max-width: 1200px)  {
      .nos{
          height:290px;
      }
