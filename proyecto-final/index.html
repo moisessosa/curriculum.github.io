@@ -17,13 +17,14 @@
 </head>
 <body>
     <header><!--.sticky-top uses position: sticky para usa despues-->
-        <div class="contact w100 bk-bg gray">
+        <div class="contact w100 bk-bg gray h30px">
             <div class="inline w65"><li class="inline">📧 info@company.com &nbsp;&nbsp;</li><li class="inline">📞 010-020-0340</li></div>
-            <div class="icons inline w30">face inst tw lkn</div>
+            <div class="icons inline w30"><img class="w24px" src="img/logo-de-facebook.png" alt="Facebook">&nbsp;<img class="w24px" src="img/instagram.png" alt="">&nbsp;
+              <img class="w24px" src="img/gorjeo.png" alt="">&nbsp;<img class="w24px" src="img/linkedin.png"></div>
         </div>
         <!-- NAVBAR Do Bootstrap  //-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand green" href="#">Zay</a>
+            <a class="navbar-brand green" href="#"><strong>Zay</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,11 +35,14 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">About</a>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -75,11 +79,20 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+          <div class="nos text-center">
+            <h2 class="green"><strong>Zay</strong> eCommerce</h2>
+            <h3 class="green">Tyny and perfect e Commerce</h3>
+            <p>Zay Shop is a templeate
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Quibusdam veritatis ab impedit consequatur molestias,
+                beatae dolor labore architecto natus explicabo.
+            </p>
+          </div>
     </header>
 
     <main>
-        <section class="categories center text-center">
-            <h2 class="">Categories of The Month</h2>
+        <section class="center text-center">
+            <h2 class="categories">Categories of The Month</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit 
                 Quidem natus obcaecati voluptas vero nam culpa exercitationem labore.
 
@@ -88,15 +101,15 @@
         <section class="sale grid-card1 justify-right">
             <div class="text-center">
                 <img class="w45 redondo" src="img/relogio.jpg" alt="relogio">
-                <div>Waches <br><button>Go Shop</button></div>
+                <div>Waches <br><button class="btn btn-success">Go Shop</button></div>
             </div>
             <div class="text-center">
                 <img class="w45 redondo" src="img/zapatos4.jpg" alt="Sapatos Tenis">
-                <div>Waches<br> <button>Go Shop</button></div>
+                <div>Waches<br> <button class="btn btn-success">Go Shop</button></div>
             </div>
             <div class="text-center">
                 <img class="w45 redondo" src="img/oculos.jpg" alt=" oculos de sol">
-                <div>Waches <br><button>Go Shop</button></div>
+                <div>Waches <br><button class="btn btn-success">Go Shop</button></div>
             </div>
         </section>
         <section class="features box-gray gray">
@@ -109,7 +122,7 @@
           </div>
           <div class="grid-card gray-dark">
             <div class="card-white">
-              <img src="" alt="">
+              <img class="w45" src="img/linterna.jpg" alt="Lampada">
               <p>⭐⭐⭐  &nbsp;&nbsp;&nbsp;<span class="gray bk-bg border-5">$245</span></p>
               <h3>Gym Weight</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -117,7 +130,7 @@
             </div>
 
             <div class="card-white">
-              <img src="" alt="">
+              <img class="w45" src="img/relogio-inteligente.jpg" alt="Relogio Inteligente">
               <p>⭐⭐⭐  &nbsp;&nbsp;&nbsp;<span class="gray bk-bg border-5">$245</span></p>
               <h3>Gym Weight</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -125,7 +138,7 @@
             </div>
 
             <div class="card-white">
-              <img src="" alt="">
+              <img class="w45" src="img/camera.jpg" alt="Camera Instantanea antiga">
               <p>⭐⭐⭐  &nbsp;&nbsp;&nbsp;<span class="gray bk-bg border-5">$245</span></p>
               <h3>Gym Weight</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -137,44 +150,52 @@
     </main>
 
     <footer>
-      <div class="grid-card">
+      <div class="grid-card margin6">
         <div class="card2">
           
-          <h3>Zay Shop</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Minima eligendi, explicabo id autem, officia nobis.</p>
+          <h3 class="green"><strong>Zay Shop</strong></h3><hr>
+          <li><img src="img/placeholder.png"> 123 Connecticut Street 1660</li>
+          <li>📧 info@company.com</li>
+          <li>📞 010-020-0340</li>
         </div>
 
         <div class="card2">
           
-          <h3>Products</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Minima eligendi, explicabo id autem, officia nobis.</p>
+          <h3>Products</h3><hr>
+          <li>Luxury</li>
+          <li>Sport Wear</li>
+          <li>Men's Shoes</li>
+          <li>Women's Shoes</li>
+          <li>Gym Accesories</li>
+          <li>Sport Shoes</li>
         </div>
 
         <div class="card2">
           
-          <h3>Futher Info</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Minima eligendi, explicabo id autem, officia nobis.</p>
+          <h3>Futher Info</h3><hr>
+          <li>Home</li>
+          <li>About</li>
+          <li>Shop Locations</li>
+          <li>FAQ</li>
         </div>
     </div>
-
-    <div class="suscrip grid-card">
+<hr class="margin-left">
+    <div class="suscrip grid-card margin6">
       <div class="social">
-        <span>face</span><span></span><span></span><span></span>
-      
+        <span></span><span></span><span></span><span></span>
+        <img src="img/logo-de-facebook.png" alt="Facebook">&nbsp;<img src="img/instagram.png" alt="">&nbsp;
+        <img src="img/gorjeo.png" alt="">&nbsp;<img src="img/linkedin.png">
       </div>
       <div>&nbsp;</div>
 
       <div class="input">
-        <input type="email" name="" id=""><button>Subcribe</button>
+        <input class="form-control bk-bg" type="email" name="" id="" placeholder="Email"><button class="btn btn-success corregir">Subcribe</button>
       </div>
 
     </div>
 
-    <div class="copy bk-bg">
-      <p>Copy Right &copy;</p>
+    <div class="copy bk-bg margin6">
+      <p>Copy Right &copy; Moises Sosa 2021</p>
     </div>
     </footer>
     
